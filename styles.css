@@ -1,0 +1,77 @@
+body {
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+#siteInput {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    margin-right: 0px;
+}
+
+#addBtn, #stopPomodoro, #startPomodoro {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#addBtn:hover {
+    background-color: lightgrey;
+}
+
+#blockedList {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+h3 {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+#startPomodoro { 
+    margin-left: 60px;
+}
+
+#stopPomodoro {
+    margin-left: 10px;
+}
+
+#startPomodoro:hover {
+    background-color: lightgrey;
+}
+
+#stopPomodoro:hover {
+    background-color: lightgrey;
+}
+
+#timerDisplay {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remove {
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h4 {
+    margin-left: 20px;
+    font-size: 16px;
+}

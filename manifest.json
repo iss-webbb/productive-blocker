@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Productivity Blocker",
+    "version": "1.0",
+    "description": "Blocking distracting sites and run pomodoro timer.",
+    "permissions": ["storage", "tabs", "scripting"],
+    "host_permissions": ["<all_urls>"],
+
+    "action": {"default_popup": "popup.html"},
+    "background": {"service_worker": "background.js"},
+    "content_scripts": [ {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+    }]
+}
